@@ -43,7 +43,7 @@ def _build_auth(params: dict) -> dict:
 
 def _get(params: dict) -> Any:
     """Perform a synchronous HTTP GET and return parsed JSON."""
-    params["json"] = "1"
+    params = {**params, "json": "1"}   # copy — never mutate the caller's dict
     _build_auth(params)
     url = f"{BASE_URL}?{urlencode(params)}"
     req = Request(url, headers={"User-Agent": "GelbooruMCP/1.0"})
