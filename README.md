@@ -4,6 +4,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![MCP](https://img.shields.io/badge/MCP-compatible-green)](https://modelcontextprotocol.io/)
 
+<a href="https://glama.ai/mcp/servers/citronlegacy/gelbooru-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/citronlegacy/gelbooru-mcp/badge" alt="Gelbooru MCP server rating" />
+</a>
+
+
 A Python [MCP](https://modelcontextprotocol.io/) server that wraps the [Gelbooru API](https://gelbooru.com/index.php?page=wiki&s=view&id=18780). Connect it to any MCP-compatible client (Claude Desktop, Cursor, etc.) to search posts, look up tags, and generate Stable Diffusion prompts from real character appearance data — all directly from your AI assistant.
 
 ---
